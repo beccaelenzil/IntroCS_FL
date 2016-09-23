@@ -1,7 +1,7 @@
 import random
 
-user = raw_input("Choose your weapon: ")
-comp = random.choice( ['rock','paper','scissors'] )
+user = raw_input("Choose your weapon: Rock, Paper, or Scissors: ")
+comp = random.choice( ['Rock','Paper','Scissors'] )
 
 print 'the user (you) chose', user
 
@@ -14,7 +14,7 @@ if user == 'Rock':
     elif comp == 'Scissors':
         print 'You win'
 
-if user == 'Paper':
+elif user == 'Paper':
     if comp == 'Rock':
         print 'You win'
     elif comp == 'Paper':
@@ -22,7 +22,7 @@ if user == 'Paper':
     elif comp == 'Scissors':
         print 'I win'
 
-if user == 'Scissors':
+elif user == 'Scissors':
     if comp == 'Rock':
         print 'I win'
     elif comp == 'Paper':

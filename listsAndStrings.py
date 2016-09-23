@@ -45,3 +45,21 @@ print answer5
 answer6 = c[0:4]+m[1:3]+h[-2]
 print answer6
 
+answer7 = h[1:] + m[1:]
+print answer7
+
+answer8 = h[0:3] + m[2] + h[-2] + h[0:3] + h[0:3] +h[0:3]
+print answer8
+
+answer9 = c[3:6] + c[1] + m[0] + h[-1] + c[4:6] + c[5] + c[1]
+print answer9
+
+answer10 = c[0] + c[2] + c[-1] + h[1] + h[2] + c[0] + h[1] + c[2:4]
+print answer10
+
+
+d = s/(24*60*60)
+s = s%(24*60*60)
+h = s/(60*60)
+m = s/60
+s = s%60
