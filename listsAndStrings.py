@@ -58,12 +58,5 @@ answer10 = c[0] + c[2] + c[-1] + h[1] + h[2] + c[0] + h[1] + c[2:4]
 print answer10
 
 
-def convertFromSeconds( s ):
-    days = s/(24*60*60)
-    s = s%(24*60*60)
-    hours = s/(60*60)
-    minutes = s/60
-    seconds = s%60
-    return [days, hours, minutes, seconds]
 
 
