@@ -12,16 +12,22 @@ def play():
             if userAnswer == correctAnswer:
                 print "Correct"
             else:
-                print "Incorrect"
-                print "ur dead fucko"
+                print "ur dead"
                 print "Rack your brain and attempt to decipher this simple multiplication, dimwit"
 
 def instructions():
     print "Hi, I'm a computer."
     print "We gon learn about math."
     print "You better put in the right answer or u r dead"
+
+def playagain():
+    again = raw_input("Would you like to play again?")
+    if again == "Yes":
+        play()
+    else:
+        print "Ok good job"
 def main():
     instructions()
     play()
+    playagain()
 main()
-
