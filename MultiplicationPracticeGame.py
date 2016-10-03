@@ -13,13 +13,13 @@ def play():
                 print "Correct"
             else:
                 print "Incorrect"
-                print "ur dead"
+                print "ur dead fucko"
                 print "Rack your brain and attempt to decipher this simple multiplication, dimwit"
 
 def instructions():
     print "Hi, I'm a computer."
     print "We gon learn about math."
-    print "You better put in the right answer or ur dead"
+    print "You better put in the right answer or u r dead"
 def main():
     instructions()
     play()
