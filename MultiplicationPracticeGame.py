@@ -17,7 +17,7 @@ def play():
 
 def instructions():
     print "Hi, I'm a computer."
-    print "We gon learn about math."
+    print "We gon learn bout math."
     print "You better put in the right answer or u r dead"
 
 def playagain():
