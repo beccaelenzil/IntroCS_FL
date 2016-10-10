@@ -1,4 +1,4 @@
- Total Score:
+ Total Score: 8/9
 Notes:
 -------------------------------------
 Problem 1) For Loops --- Score: 2/3
@@ -37,9 +37,18 @@ count9([1, 2, 9]), 1 == Traceback (most recent call last):
 IndexError: list index out of range
 
 -------------------------------------
-Problem 2) Multiplication Practice Game --- Score:
-Notes:
+Problem 2) Multiplication Practice Game --- Score: 3/3
+Notes: Play again is a nice feature, but you should let the user know what are valid answers.
+Currently it only will only play again if you answer 'Yes' with a capital 'Y'.
+Consider using again.lower() and checking if again == 'yes', that was 'Yes', 'YES', and 'yes'
+would all be valid answers. Let me know if you have questions about this.
+
+Nice work adding character to your game.
+
+You could make it a little more user friendly by putting a space between the factors and the word 'and'
 
 -------------------------------------
-Problem 3) Guess My Number --- Score:
-Notes:
+Problem 3) Guess My Number --- Score: 3/3
+Notes: Looks good, nice character.
+
+I would have liked you to use the guess my number game to try a different enhancement.
