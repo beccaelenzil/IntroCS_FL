@@ -26,13 +26,14 @@ def rwsteps(start,low,hi):
     currentPosition = start
     stepCount = 0
 
-    leftSpaces = (start-low)+1
-    rightSpaces = (hi-low)-start
-
-    while currentPosition in range(low,hi):
+    leftSpaces = low + start
+    rightSpaces = hi-start
+    print '|' + leftSpaces*' ' + 'XX'+rightSpaces*' ' +'|' + 'position:' + str(currentPosition)
+    while currentPosition in range(low+1,hi):
         currentStep = rs()
         currentPosition = currentPosition + currentStep
         stepCount += 1
+
         if currentStep == 1:
             leftSpaces += 1
             rightSpaces -= 1
@@ -40,10 +41,9 @@ def rwsteps(start,low,hi):
             leftSpaces -= 1
             rightSpaces += 1
 
-        print '|' + leftSpaces*' ' + 'XX'+rightSpaces*' ' +'|'
+        print '|' + leftSpaces*' ' + 'XX'+rightSpaces*' ' +'|' + 'position:' + str(currentPosition)
 
-        print stepCount
-        print currentPosition
     print 'That took '+str(stepCount)+' steps'
-rwsteps(5,1,100)
+
+rwsteps(10,0,50)
 

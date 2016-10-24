@@ -22,3 +22,21 @@ def fibIter(n):
         return fibSeq[-1]
 
 print fibIter(90)
+
+
+def listReverse(L):
+    if len(L) == 1:
+        return L
+    else:
+        return L(-1) + listReverse(L[0:1]) or listReverse(L[1:])+(L[0])
+
+
+def listReverseIter(L):
+    K = []
+    for i in range(len(L)-1,-1,-1) or range(-1,-1*len(L),-1):
+        K.append(L[i])
+    return K
+# List Reverse Tests
+
+print listReverse(1,2,3,4,5)
+print listReverse(5,4,3,2,1)
