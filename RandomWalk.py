@@ -45,5 +45,31 @@ def rwsteps(start,low,hi):
 
     print 'That took '+str(stepCount)+' steps'
 
-rwsteps(10,0,50)
+#rwsteps(10,0,50)
 
+def rwPosPlain(start, nsteps):
+    currentPosition = start
+    for i in range (0,nsteps):
+        currentPosition = (currentPosition +rs())
+        #print "Current position is" + str(currentPosition)
+    return currentPosition
+#rwpos(1,10)
+def ave_signed_displacement(n_sims):
+    currentPositionList = []
+    for n in range(n_sims):
+        currentPosition = rwPosPlain(0,100)
+        currentPositionList.append(currentPosition)
+    ave = sum(currentPositionList)/n_sims
+    return ave
+
+def sq_signed_displacement(n_sims):
+    sq_disp_list = []
+    for n in range(n_sims):
+        currentPosition = rwPosPlain(0,100)
+        sq_disp = currentPosition**2
+        sq_disp_list.append(sq_disp)
+
+    ave = sum(sq_disp_list)/float(n_sims)
+    return ave
+
+print sq_signed_displacement(10000)
