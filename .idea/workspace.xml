@@ -40,21 +40,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameOfLife.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameOfLife.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GameOfLife.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1560">
-              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+            <state relative-caret-position="266">
+              <caret line="221" column="0" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RandomWalk.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RandomWalk.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RandomWalk.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1040">
-              <caret line="63" column="66" selection-start-line="63" selection-start-column="66" selection-end-line="63" selection-end-column="66" />
+            <state relative-caret-position="180">
+              <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -144,10 +144,10 @@
         <option value="$PROJECT_DIR$/MultiplicationPracticeGame.py" />
         <option value="$PROJECT_DIR$/GuessMyNumber.py" />
         <option value="$PROJECT_DIR$/21.py" />
-        <option value="$PROJECT_DIR$/GameOfLife.py" />
         <option value="$PROJECT_DIR$/pygameCheck.py" />
         <option value="$PROJECT_DIR$/Recursion.py" />
         <option value="$PROJECT_DIR$/RandomWalk.py" />
+        <option value="$PROJECT_DIR$/GameOfLife.py" />
       </list>
     </option>
   </component>
@@ -857,14 +857,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FibSequence" />
-    <entry file="file://$PROJECT_DIR$/GameOfLife.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pygameCheck.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
@@ -883,8 +875,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RandomWalk.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="63" column="66" selection-start-line="63" selection-start-column="66" selection-end-line="63" selection-end-column="66" />
+        <state relative-caret-position="180">
+          <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameOfLife.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="221" column="0" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
           <folding />
         </state>
       </provider>

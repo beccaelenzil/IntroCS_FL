@@ -20,7 +20,7 @@ def rwPos(start, nsteps):
         currentPosition = (currentPosition +rsl)
         print "Current position is" + str(currentPosition)
     return currentPosition
-#rwpos(1,10)
+#rwpos(1,1000)
 
 def rwsteps(start,low,hi):
     currentPosition = start
@@ -59,17 +59,18 @@ def ave_signed_displacement(n_sims):
     for n in range(n_sims):
         currentPosition = rwPosPlain(0,100)
         currentPositionList.append(currentPosition)
-    ave = sum(currentPositionList)/n_sims
+    ave = sum(currentPositionList)/float(n_sims)
     return ave
 #calculates the average distance from the initial value each time?
 def sq_signed_displacement(n_sims):
     sq_disp_list = []
     for n in range(n_sims):
-        currentPosition = rwPosPlain(0,100)
+        currentPosition = rwPosPlain(0,500)
         sq_disp = currentPosition**2
         sq_disp_list.append(sq_disp)
 
     ave = sum(sq_disp_list)/float(n_sims)
     return ave
 #Squares each value in currentPositionList and recalculates the average, thus calculating how far the thing travels each time
-print sq_signed_displacement(10000)
+#print sq_signed_displacement(10000)
+print sq_signed_displacement(100)
