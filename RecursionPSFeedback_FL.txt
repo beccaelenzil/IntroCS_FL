@@ -1,1 +1,23 @@
 Total Score: Late -1 (no link to recursive drawing)
+
+Total Score: 2/6
+Notes:
+-------------------------------------
+Problem 1) Recursive Drawing: 0/3
+Notes: There is still no link to your recursive drawing trinket
+
+-------------------------------------
+Problem 2) Recursive Functions: 2/3
+Notes: Issue with listReverse, the issue is with "or"
+
+# Fibonnaci Tests
+fib(5) == 5 =  5  :  True
+fib(11) == 89 =  89  :  True
+fibIter(5) == 5 =  3  :  False
+fibIter(11) == 89 =  55  :  False
+
+# List Reverse Tests
+listReverse([1,2,3,4]) == [4,3,2,1] = Traceback (most recent call last):
+  File "<input>", line 18, in <module>
+  File "<input>", line 25, in listReverse
+TypeError: 'list' object is not callable

@@ -18,7 +18,7 @@ def fibIter(n):
     else:
         for i in range(2,n):
             fibSeq.append(fibSeq[i-1]+fibSeq[i-2])
-            print fibSeq
+            #print fibSeq
         return fibSeq[-1]
 
 #print fibIter(90)
