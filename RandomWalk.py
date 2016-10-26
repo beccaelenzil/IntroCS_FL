@@ -74,3 +74,5 @@ def sq_signed_displacement(n_sims):
 #Squares each value in currentPositionList and recalculates the average, thus calculating how far the thing travels each time
 #print sq_signed_displacement(10000)
 print sq_signed_displacement(100)
+
+rwsteps(5,0,10)
