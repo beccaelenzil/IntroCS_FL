@@ -1,12 +1,12 @@
-def fibSeqReec(x):
+def fib(x):
     if x == 0:
         return 0
     elif x == 1:
         return 1
     else:
-        return fibSeq(x-1)+fibSeq(x-2)
+        return fib(x-1)+fib(x-2)
 
-#print fibSeq(50)
+#print fib(50)
 
 
 def fibIter(n):
@@ -21,7 +21,7 @@ def fibIter(n):
             print fibSeq
         return fibSeq[-1]
 
-print fibIter(90)
+#print fibIter(90)
 
 
 def listReverse(L):
@@ -38,5 +38,5 @@ def listReverseIter(L):
     return K
 # List Reverse Tests
 
-print listReverse(1,2,3,4,5)
-print listReverse(5,4,3,2,1)
+#print listReverse(1,2,3,4,5)
+#print listReverse(5,4,3,2,1)

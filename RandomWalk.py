@@ -61,7 +61,7 @@ def ave_signed_displacement(n_sims):
         currentPositionList.append(currentPosition)
     ave = sum(currentPositionList)/n_sims
     return ave
-
+#calculates the average distance from the initial value each time?
 def sq_signed_displacement(n_sims):
     sq_disp_list = []
     for n in range(n_sims):
@@ -71,5 +71,5 @@ def sq_signed_displacement(n_sims):
 
     ave = sum(sq_disp_list)/float(n_sims)
     return ave
-
+#Squares each value in currentPositionList and recalculates the average, thus calculating how far the thing travels each time
 print sq_signed_displacement(10000)
