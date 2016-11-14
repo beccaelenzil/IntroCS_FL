@@ -1,10 +1,10 @@
 Total Score: Late -1 (no link to recursive drawing)
 
-Total Score: 2/6
+Total Score: 4/6
 Notes:
 -------------------------------------
 Problem 1) Recursive Drawing: 0/3
-Notes: There is still no link to your recursive drawing trinket
+Notes: There is still no link to your recursive drawing trinket (no chai)
 
 -------------------------------------
 Problem 2) Recursive Functions: 2/3
