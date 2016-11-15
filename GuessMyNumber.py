@@ -1,7 +1,7 @@
 import random
 def play():
     userAnswer = 0
-    correctAnswer = random.randint(1,2)
+    correctAnswer = random.randint(1,100)
     while userAnswer != correctAnswer:
         userAnswer = raw_input("Please guess a number from 1 to 100:")
         userAnswer = int(userAnswer)
